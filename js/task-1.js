@@ -5,17 +5,9 @@ const user = {
   premium: true,
 };
 
-console.log(user)
-
 user.mood = 'happy';
 user.hobby = 'skydiving';
 user.premium = false;
-
-console.log(user)
-
-// for (const key in user) { 
-//     console.log(`${key}: ${user[key]}`);
-// }
 
 const userKeys = Object.keys(user);
 
